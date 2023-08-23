@@ -2,7 +2,7 @@ let coursesContainer = document.querySelector(".courses");
 for (let i = 0; i < 3; i++) {
 	coursesContainer.innerHTML += `<div><img src="./assets/image5.png">
 	<h5>The 1% course</h5>
-	<p>Now, I'm on a mission to help you get to the
+	<p class='community-text'>Now, I'm on a mission to help you get to the
 RICHEST 1% - one educational finance
 content at a time.</p>
 <button>Buy the course @ ₹3,999</button>

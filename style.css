@@ -79,11 +79,146 @@ nav > div > p {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	gap: 30px;
 }
-/* .main>div:nth-child(1){
-	display: ;
-}
-*/
+
 .title{
 	font-weight: 500;
+}
+.featured {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 5px;
+	margin-top: 4%;
+}
+
+.description {
+	font-size: 28px;
+	font-weight: 600;
+}
+
+.about-me {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 15px;
+}
+
+.text {
+	font-size: 12px;
+	color: rgb(99, 100, 104);
+	width: 50%;
+	text-align: center;
+}
+
+.logos {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+}
+
+.logos>div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	background-color: rgb(51, 95, 244);
+}
+
+.toggle-buttons {
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+}
+
+.toggle-buttons>button {
+	width: 120px;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 20px 20px 20px 20px;
+	color: black;
+	background-color: white;
+	border-color: gray;
+	font-size: 14px;
+
+}
+
+.services {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 15px;
+}
+
+.community {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.community>div {
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.community>div>div:first-child {
+	display: flex;
+	flex-direction: column;
+	align-items: self-start;
+	gap: 5px;
+}
+
+.community>div>div {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 5px;
+}
+
+.community-text {
+	font-size: small;
+	line-height: 25px;
+}
+
+.courses {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;
+}
+
+.courses>div {
+	background-color: white;
+	border-radius: 20px;
+	padding: 8px;
+	width: 260px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+}
+
+.courses>div>img {
+	width: 250px;
+	height: 140px;
+}
+
+.courses>div>button {
+	border: none;
+	padding: 12px 30px;
+	background-color: rgb(51, 95, 244);
+	color: white;
+	font-weight: 500;
+	border-radius: 20px 20px 20px 20px;
 }
