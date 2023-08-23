@@ -80,9 +80,10 @@ nav > div > p {
 	align-items: center;
 	justify-content: center;
 }
-.main>div:nth-child(1){
+/* .main>div:nth-child(1){
 	display: ;
 }
+*/
 .title{
 	font-weight: 500;
 }
