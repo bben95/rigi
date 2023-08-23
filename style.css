@@ -147,6 +147,17 @@ nav > div > p {
 	font-size: 14px;
 
 }
+.toggle-buttons>button.active {
+	width: 120px;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 20px 20px 20px 20px;
+	color: white;
+	background-color: rgb(51, 95, 244);
+	border-color: gray;
+	font-size: 14px;
+
+}
 
 .services {
 	display: flex;
@@ -157,6 +168,13 @@ nav > div > p {
 }
 
 .community {
+	display: none;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	.community.active {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -190,6 +208,14 @@ nav > div > p {
 }
 
 .courses {
+	display: none;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		gap: 30px;
+	}
+	
+	.courses.active {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -221,4 +247,171 @@ nav > div > p {
 	color: white;
 	font-weight: 500;
 	border-radius: 20px 20px 20px 20px;
+}
+.consultations {
+	display: none;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;
+}
+
+.consultations.active {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;
+}
+
+.consultations>div {
+	background-color: white;
+	border-radius: 20px;
+	padding: 8px;
+	width: 260px;
+	display: flex;
+	flex-direction: column;
+	align-items: self-start;
+	justify-content: center;
+	gap: 10px;
+
+}
+
+.consultation-container>div {
+	display: flex;
+	flex-direction: row;
+	gap: 8px;
+}
+
+.consultation-container>div>div {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	font-size: 13px;
+}
+
+.consultation-container>button {
+	align-self: center;
+	border: none;
+	padding: 10px 65px;
+	background-color: rgb(51, 95, 244);
+	color: white;
+	font-weight: 500;
+	border-radius: 20px 20px 20px 20px;
+}
+
+.testimonials {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;
+
+}
+
+.testimonials>div {
+	background-color: white;
+	border-radius: 20px;
+	padding: 8px;
+	width: 260px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+}
+
+.testimonials-text {
+	font-size: smaller;
+	text-align: center;
+	line-height: 20px;
+}
+
+.testimonials>div>div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.join-community {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgb(51, 95, 244);
+	width: 100vw;
+	height: 100vh;
+	padding: 60px;
+	gap: 35px;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+}
+
+.small-text {
+	font-size: smaller;
+	color: white;
+}
+
+.large-text {
+	font-size: xx-large;
+	font-weight: 600;
+	color: white;
+	width: 550px;
+	text-align: center;
+}
+
+.join-community>button {
+	border: none;
+	padding: 12px 50px;
+	background-color: white;
+	color: rgb(51, 95, 244);
+	font-weight: 500;
+	border-radius: 20px 20px 20px 20px;
+}
+
+.contact-us {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	gap: 10px;
+}
+
+.contact-us>div {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	gap: 40px;
+}
+
+.contact {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 10px;
+}
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(51, 95, 244);
+	width: 100vw;
+	padding: 30px;
+	gap: 40px;
+}
+
+.logo {
+	font-size: xx-large;
+	color: white;
+	font-weight: 500;
+}
+
+.footer>div {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 20px;
 }

@@ -17,7 +17,7 @@ let iconsArr = [
 
 let consultationContainer = document.querySelector(".consultations");
 for (let i = 0; i < 3; i++) {
-	consultationContainer.innerHTML += `<div class='consultaion-container'>
+	consultationContainer.innerHTML += `<div class='consultation-container'>
 	 <img src=${iconsArr[i]}>
 	 <h5>SCO vs HEA Dream11 Team</h5>
 	 <h5>Prediction | Dream11</h5>
@@ -33,15 +33,16 @@ for (let i = 0; i < 3; i++) {
 <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-rupee" viewBox="0 0 16 16">
   <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z"/>
 </svg> <p>99/slot</p></div>
-<button>View Details</button>
+
 </div>
+<button>View Details</button>
 	 </div>`;
 }
 
 let testimonialsContainer = document.querySelector(".testimonials");
 for (let i = 0; i < 3; i++) {
 	testimonialsContainer.innerHTML += `<div>
-	<p>Now, I'm on a mission to help you get
+	<p class='testimonials-text'>Now, I'm on a mission to help you get
 to the RICHEST 1% - one educational
 finance content at a time. Now, I'm on
 a mission to help you get to the
@@ -49,8 +50,31 @@ RICHEST 1% - one educational finance
 
 content at a time.</p>
 <img src="./assets/image8.png">
+<div>
 <h5>Rustom Paji</h5>
-<p>Hotel owner</p>
+<p class='testimonials-text'>Hotel owner</p>
+</div>
 	</div>`;
 }
+
+let toogleButtons = document.querySelectorAll(".toggle");
+
+toogleButtons.forEach((button, Idx) =>
+	button.addEventListener("click", () => {
+		if (Idx === 0) {
+			let element = document.getElementsByClassName("community");
+			element[0].classList.toggle("active");
+			button.classList.toggle("active");
+		} else if (Idx === 1) {
+			let element = document.getElementsByClassName("courses");
+			element[0].classList.toggle("active");
+			button.classList.toggle("active");
+		} else {
+			let element = document.getElementsByClassName("consultations");
+			element[0].classList.toggle("active");
+			button.classList.toggle("active");
+		}
+	})
+);
+
 
