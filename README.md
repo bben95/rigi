@@ -15,3 +15,5 @@ If you installed git you can clone the code to your machine, or download a ZIP o
 
 Download the ZIP from this location, or run the following git command to clone the files to your machine:
 
+git clone https://github.com/craigshoemaker/html-css-javascript-getting-started
+
