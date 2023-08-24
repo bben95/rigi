@@ -4,10 +4,10 @@
 ---
 The following tools help make it easier to work with sample code.
 
--git: A tool for managing source code
--Visual Studio Code: A source code editor
--Live Server: A simple web server utility for Visual Studio Code
--Echo Post: A simple Node.js server utility that displays post data.
+- git: A tool for managing source code
+- Visual Studio Code: A source code editor
+- Live Server: A simple web server utility for Visual Studio Code
+- Echo Post: A simple Node.js server utility that displays post data.
 
 ## Set Up
 ---
@@ -17,9 +17,9 @@ Download the ZIP from this location, or run the following git command to clone t
 
 git clone https://github.com/bben95/rigi.git
 
--Once the files are on your machine, open the html-css-javascript-getting-started folder in Visual Studio Code.
+- Once the files are on your machine, open the html-css-javascript-getting-started folder in Visual Studio Code.
 
--With the files open in Visual Studio Code, press the Go Live button at the bottom of the window to launch the files with Live Server.
+- With the files open in Visual Studio Code, press the Go Live button at the bottom of the window to launch the files with Live Server.
 
 ***
 
