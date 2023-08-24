@@ -1,5 +1,5 @@
 # Building Websites With HTML, CSS, and JavaScript: Getting Started
----
+***
 ## Tools
 ---
 The following tools help make easier to work with sample code.
