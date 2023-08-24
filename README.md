@@ -2,7 +2,7 @@
 ***
 ## Tools
 ---
-The following tools help make easier to work with sample code.
+The following tools help make it easier to work with sample code.
 
 -git: A tool for managing source code
 -Visual Studio Code: A source code editor
@@ -15,5 +15,12 @@ If you installed git you can clone the code to your machine, or download a ZIP o
 
 Download the ZIP from this location, or run the following git command to clone the files to your machine:
 
-git clone https://github.com/craigshoemaker/html-css-javascript-getting-started
+git clone https://github.com/bben95/rigi.git
+
+-Once the files are on your machine, open the html-css-javascript-getting-started folder in Visual Studio Code.
+
+-With the files open in Visual Studio Code, press the Go Live button at the bottom of the window to launch the files with Live Server.
+
+***
+
 
